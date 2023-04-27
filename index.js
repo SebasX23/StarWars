@@ -21,50 +21,80 @@ const END_POINTS = {
       apiURL:`${API_URL}/planets`,
       endpoint: 'planets',
       data: [
-
+        "Name",
+        "Gravity",
+        "Terrain",
+        "Population"
       ],
       values: [
-        
+        "name",
+        "gravity",
+        "terrain",
+        "population"
       ] 
     },
     films: {
       apiURL:`${API_URL}/films`,
       endpoint: 'films',
       data: [
-
+        "Title",
+        "Episode Id",
+        "Director",
+        "Release Date"
       ],
       values: [
-        
+        "title",
+        "episode_id",
+        "director",
+        "release_date"
       ] 
     },
     species: {
       apiURL:`${API_URL}/species`,
       endpoint: 'species',
       data: [
-
+        "Name",
+        "Designation",
+        "Average Height",
+        "Language"
       ],
       values: [
-        
+        "name",
+        "designation",
+        "average_height",
+        "language"
       ] 
     },
     vehicles: {
       apiURL:`${API_URL}/vehicles`,
       endpoint: 'vehicles',
       data: [
-
+        "Name",
+        "Model",
+        "Manufacturer",
+        "Cost In Credits"
       ],
       values: [
-        
+        "name",
+        "model",
+        "manufacturer",
+        "cost_in_credits"
       ] 
     },
     starships: {
       apiURL:`${API_URL}/starships`,
       endpoint: 'starships',
       data: [
-
+        "Name",
+        "Manufacturer",
+        "Cost In Credits",
+        "Hyperdrive Rating"
       ],
       values: [
-        
+        "name",
+        "manufacturer",
+        "cost_in_credits",
+        "hyperdrive_rating"
       ] 
     }
 }
